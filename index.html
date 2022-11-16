@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<style>
+		* {
+			margin: 0%;
+			padding: 0%;
+			box-sizing: border-box;
+		}
+		.container {
+			height: 100vh;
+			width: 100%;
+			background-image: url(./image/bg.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			position: relative;
+			background-size: cover;
+		}
+		.footer {
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			padding: 1rem 4rem 1.5rem 4rem;
+			background-color: #383e31;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		.footer_social {
+			display: flex;
+			align-items: center;
+			gap: 6px;
+		}
+		.footer_link {
+			width: 40px;
+			height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			border: 1px solid #4e5644;
+			transition-property: all;
+			transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+			transition-duration: 150ms;
+		}
+		.footer_link:hover {
+			background-color: #4e5644;
+		}
+		.footer_link svg {
+			width: 22px;
+			height: 22px;
+			color: white;
+			fill: white;
+		}
+		.email a {
+			color: white;
+			text-decoration: none;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.email span {
+			font-size: 1rem;
+			font-family: Arial, Helvetica, sans-serif;
+			color: white;
+		}
+	</style>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="footer">
+				<div class="email"><span>Email ID :</span><a href="#"> info@smartchain.me</a></div>
+				<ul class="footer_social">
+					<a
+						href="https://www.linkedin.com/company/smart-chain-llc/mycompany/"
+						target="_blank"
+						rel="noreferrer"
+						class="footer_link"
+						><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+							<path fill="none" d="M0 0h24v24H0z"></path>
+							<path
+								d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"
+							></path></svg
+					></a>
+
+					<a
+						href="https://twitter.com/SmartChain_tech?s=08"
+						target="_blank"
+						rel="noreferrer"
+						class="footer_link"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+							></path></svg
+					></a>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
